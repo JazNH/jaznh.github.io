@@ -28,14 +28,15 @@ $theme-colors: (
   danger: #dc3545
 );
 
-$body-bg: white;
+
+
 
 
 $body-color: #black;
 
 
 
-$body-color-inverse: invert($body-color) !default;
+
 $link-color: #12bbad;
 
 
@@ -49,6 +50,9 @@ $headings-font-weight: 200;
 $lead-font-size:   1.30rem;
 
 $spacer: 1.5rem;
+
+
+$body-bg: #ffffff;
 
 @import 'bootstrap-4.0.0';
 
@@ -143,3 +147,5 @@ html,body {
     background: linear-gradient($body-bg, transparentize($body-bg, 0.2),transparentize($body-bg, 0.9),transparentize($body-bg, 1));
 	}
 }
+
+
